@@ -288,7 +288,7 @@ article#arc .timenode .meta {
   display: -webkit-flex /* NEW - Chrome */;
   display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
   display: flex;
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   font-weight: 500;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -343,10 +343,10 @@ article#cat .all-cats a {
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: block;
   padding: 8px 16px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   color: var(--color-list);
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   font-weight: 500;
 }
 article#cat .all-cats a:hover {
@@ -398,8 +398,8 @@ article#tag .all-tags ul {
 article#tag .all-tags ul li {
   list-style: none;
   margin: 8px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   overflow: hidden;
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
@@ -408,7 +408,7 @@ article#tag .all-tags ul li {
   display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
   display: flex;
   position: relative;
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
 }
 article#tag .all-tags ul li a {
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
@@ -427,8 +427,8 @@ article#tag .all-tags ul li span {
   color: var(--color-meta);
   background: var(--color-card);
   padding: 2px 8px;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
   pointer-events: none;
   position: absolute;
   right: 2px;
@@ -554,7 +554,7 @@ article#tag .all-tags ul li span:before {
 .article blockquote ol {
   text-align: left;
   word-wrap: normal;
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -592,7 +592,7 @@ article#tag .all-tags ul li span:before {
   margin-bottom: 1em;
   overflow: auto;
   background: var(--color-codeblock);
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   font-family: Menlo, UbuntuMono, Monaco, monospace, courier, sans-serif;
   border: 1px solid #ffebcb;
   padding: 16px;
@@ -624,7 +624,7 @@ article#tag .all-tags ul li span:before {
 @media screen and (max-width: 500px) {
   .article ul,
   .article ol {
-    font-size: 0.875rem;
+    font-size: 0.6rem;
   }
   .article figure {
     font-size: 13px;
@@ -783,7 +783,7 @@ article#tag .all-tags ul li span:before {
   line-height: 1.75;
   padding-bottom: 8px;
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   color: var(--color-list);
 }
 .md .footer .header i {
@@ -802,7 +802,7 @@ article#tag .all-tags ul li span:before {
   padding: 16px;
 }
 .md .footer .references .body a {
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   font-weight: 500;
 }
 .md .footer .related_posts .body {
@@ -853,12 +853,12 @@ article#tag .all-tags ul li span:before {
   -webkit-line-clamp: 1;
 }
 .md .footer .related_posts .body .vlts-rps .excerpt {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   color: var(--color-meta);
   -webkit-line-clamp: 3;
 }
 .md .footer .copyright blockquote p {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   margin: 0.25em 0;
 }
 .md .footer .copyright blockquote p a {
@@ -893,7 +893,7 @@ article .readmore {
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: block;
   margin-top: 24px;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
 }
 .copyright.license {
   background: var(--color-copyright-bkg);
@@ -1079,7 +1079,7 @@ footer.footer {
 }
 footer.footer,
 footer.footer p {
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
 }
 footer.footer .licenses {
   color: fade(, 50%);
@@ -1162,7 +1162,7 @@ footer.footer .copyright {
   margin-top: 16px;
 }
 footer.footer .copyright p {
-  font-size: 0.78125rem;
+  font-size: 0.6rem;
 }
 @media screen and (max-width: 768px) {
   footer.footer {
@@ -1188,8 +1188,8 @@ footer.footer .copyright p {
   -o-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   margin: -8px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
   align-items: flex-start;
   line-height: 1.3;
 }
@@ -1311,12 +1311,12 @@ footer.footer .copyright p {
   margin: 0;
 }
 .article.l_friends .friends-group .friend-content .friend-card .friend-right p.friend-name {
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   padding-top: 4px;
   font-weight: bold;
 }
 .article.l_friends .friends-group .friend-content .friend-card .friend-right p.tags {
-  font-size: 0.78125rem;
+  font-size: 0.6rem;
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: inline;
@@ -1376,7 +1376,7 @@ footer.footer .copyright p {
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: block;
   margin: 0.75rem auto;
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   color: var(--color-meta);
 }
 .md .img-wrap .image-caption:empty {
@@ -1648,8 +1648,8 @@ svg.loading {
   position: relative;
   margin-bottom: 16px;
   padding: 24px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
 }
 #l_main .post h1.title {
   font-size: 1.5rem;
@@ -1771,7 +1771,7 @@ svg.loading {
 #l_main .post .article-meta .new-meta-box,
 #l_main .post .article-meta .new-meta-box p,
 #l_main .post .article-meta .new-meta-box i {
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
 }
 #l_main .post .article-meta .new-meta-box .new-meta-item {
   color: var(--color-meta);
@@ -1919,8 +1919,8 @@ svg.loading {
   display: none;
   position: absolute;
   background: var(--color-card);
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
   padding: 8px;
@@ -2016,7 +2016,7 @@ article#comments p[ct] {
 article#comments p[cst] {
   margin-top: 1em;
   margin-bottom: 1em;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
 }
 article#comments #load-btns,
 article#comments #loading-comments {
@@ -2158,7 +2158,7 @@ img.lazyload:not(.placeholder).loaded {
 }
 .md ul,
 .md ol {
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   list-style: initial;
   padding-left: 8px;
   margin-left: 16px;
@@ -2217,8 +2217,8 @@ img.lazyload:not(.placeholder).loaded {
   margin: auto;
   padding: 1em 3em;
   border: 1px solid #3dd9b6;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   color: #3dd9b6;
   font-weight: 500;
 }
@@ -2261,8 +2261,8 @@ img.lazyload:not(.placeholder).loaded {
 #l_main .prev-next section {
   color: var(--color-meta);
   padding: 16px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
 }
 #l_main .prev-next section:hover {
   color: #ff5722;
@@ -2309,7 +2309,7 @@ img.lazyload:not(.placeholder).loaded {
   width: 1rem;
 }
 #l_main .article .prev-next >a p.content {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   font-weight: 400;
   text-align: justify;
   word-break: break-all;
@@ -2413,10 +2413,10 @@ img.lazyload:not(.placeholder).loaded {
   -ms-user-select: none;
 }
 .meta-v3 time {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
 }
 .meta-v3 .category-link {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   color: var(--color-meta);
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
@@ -2519,8 +2519,8 @@ img.lazyload:not(.placeholder).loaded {
   margin: 64px 0px 0px -320px;
   background: var(--color-card);
   z-index: 3;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
   overflow: hidden;
 }
 #u-search .modal .search-icon,
@@ -2561,8 +2561,8 @@ img.lazyload:not(.placeholder).loaded {
   width: 100%;
   height: 64px;
   z-index: 3;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   font-size: $fontsize;
   box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
@@ -2625,8 +2625,8 @@ img.lazyload:not(.placeholder).loaded {
   padding: 0 8px;
   width: calc(100% - 100px - 16px);
   line-height: 2rem;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
   vertical-align: middle;
   border: none;
   appearance: none;
@@ -2646,8 +2646,8 @@ img.lazyload:not(.placeholder).loaded {
   }
 }
 #u-search .modal .modal-header #u-search-modal-form #u-search-modal-input:focus {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 #u-search .modal .modal-header #u-search-modal-btn-submit {
   position: absolute;
@@ -2673,8 +2673,8 @@ img.lazyload:not(.placeholder).loaded {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   background: var(--color-card);
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
 }
 #u-search .modal .modal-body::-webkit-scrollbar {
   height: 4px;
@@ -2701,8 +2701,8 @@ img.lazyload:not(.placeholder).loaded {
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: block;
   padding: 16px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
 }
 #u-search .modal .modal-body .modal-results .result b[mark] {
   color: #25be9c;
@@ -2738,7 +2738,7 @@ img.lazyload:not(.placeholder).loaded {
   overflow: hidden;
   word-break: break-all;
   text-overflow: ellipsis;
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   color: var(--color-meta);
 }
 #u-search .modal .modal-body .modal-results .result .icon {
@@ -2793,7 +2793,7 @@ img.lazyload:not(.placeholder).loaded {
   max-height: 200vh;
   overflow: auto;
   text-align: justify;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   max-width: 100%;
 }
 @media screen and (max-width: 768px) {
@@ -2821,8 +2821,8 @@ img.lazyload:not(.placeholder).loaded {
   z-index: 0;
   background: var(--color-card);
   margin-bottom: 16px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
   width: 100%;
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
@@ -2851,11 +2851,11 @@ img.lazyload:not(.placeholder).loaded {
   }
 }
 .widget header {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   padding: calc(16px - 2px);
   font-weight: bold;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   padding-bottom: 0;
 }
 .widget header,
@@ -2928,7 +2928,7 @@ img.lazyload:not(.placeholder).loaded {
   -ms-flex: none 0;
   flex: none 0;
   font-weight: normal;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   color: rgba(68,68,68,0.7);
 }
 .widget >.content ul.entry a.active,
@@ -2979,8 +2979,8 @@ img.lazyload:not(.placeholder).loaded {
   align-self: center;
   overflow: hidden;
   position: relative;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   line-height: 0;
 }
 .widget.blogger .content >.avatar.circle {
@@ -3133,7 +3133,7 @@ img.lazyload:not(.placeholder).loaded {
 }
 .widget.text .content,
 .widget.text .content p {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   word-break: break-all;
 }
 .widget.text .content a {
@@ -3155,7 +3155,7 @@ img.lazyload:not(.placeholder).loaded {
   padding: 8px 0;
 }
 .widget.list .content a {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   font-weight: bold;
   line-height: 1.5;
   padding-top: 6px;
@@ -3220,7 +3220,7 @@ img.lazyload:not(.placeholder).loaded {
   -ms-flex-direction: column;
   flex-direction: column;
   align-items: center;
-  font-size: 0.78125rem;
+  font-size: 0.6rem;
   font-weight: bold;
   color: rgba(68,68,68,0.7);
   line-height: 1.5;
@@ -3305,7 +3305,7 @@ img.lazyload:not(.placeholder).loaded {
   margin-bottom: 8px;
 }
 .widget.related_posts .content h3 {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   font-weight: bold;
   margin: 0;
 }
@@ -3467,8 +3467,8 @@ img.lazyload:not(.placeholder).loaded {
 #l_side .toc-wrapper {
   z-index: 1;
   overflow: hidden;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
   transition: all 0.28s ease;
   -webkit-transition: all 0.28s ease;
   -khtml-transition: all 0.28s ease;
@@ -3513,8 +3513,8 @@ img.lazyload:not(.placeholder).loaded {
     max-width: calc(100% - 2 * 16px);
     top: 48px;
     right: 16px;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
     box-shadow: 0 4px 8px 0px rgba(0,0,0,0.1);
     -webkit-box-shadow: 0 4px 8px 0px rgba(0,0,0,0.1);
     border: 1px solid #e7e7e7;
@@ -3550,7 +3550,7 @@ img.lazyload:not(.placeholder).loaded {
 #l_side .toc-wrapper a {
   padding-left: 8px;
   color: var(--color-meta);
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: inline-block;
@@ -3737,12 +3737,12 @@ img.lazyload:not(.placeholder).loaded {
 .md div.btns p,
 .article div.btns a,
 .md div.btns a {
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   color: var(--color-p);
 }
 .article div.btns b,
 .md div.btns b {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
 }
 .article div.btns.wide>a,
 .md div.btns.wide>a {
@@ -4568,7 +4568,7 @@ div.fancybox .gallery {
   overflow: hidden;
 }
 div.fancybox .image-caption {
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   padding-top: 0.5em;
   padding-bottom: 1em;
   color: var(--color-meta);
@@ -4587,7 +4587,7 @@ details {
   border-radius: 4px;
   -webkit-border-radius: 4px;
   background: var(--color-card);
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   transition: all 0.28s ease;
   -webkit-transition: all 0.28s ease;
   -khtml-transition: all 0.28s ease;
@@ -4603,7 +4603,7 @@ details summary {
   border-radius: 4px;
   -webkit-border-radius: 4px;
   color: rgba(68,68,68,0.7);
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   font-weight: bold;
   position: relative;
   line-height: normal;
@@ -5016,8 +5016,8 @@ img.inline {
   box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
   color: var(--color-p);
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
 }
 @media screen and (max-width: 425px) {
   .md .link-card {
@@ -5051,8 +5051,8 @@ img.inline {
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: block;
   position: absolute;
-  border-radius: 8px/4;
-  -webkit-border-radius: 8px/4;
+  border-radius: 16px/4;
+  -webkit-border-radius: 16px/4;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -5078,7 +5078,7 @@ img.inline {
 .md .link-card p.url {
   flex-shrink: 0;
   color: var(--color-meta);
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
 }
 .md .link-group {
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
@@ -5206,7 +5206,7 @@ div.note {
   padding-left: calc(16px + 16px);
   border-radius: 4px;
   -webkit-border-radius: 4px;
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   background: var(--color-block);
   border-left: 4px solid #3dd9b6;
 }
@@ -5577,7 +5577,7 @@ p.p.right {
 }
 span.p.small,
 p.p.small {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
 }
 span.p.large,
 p.p.large {
@@ -5776,7 +5776,7 @@ div.tabs {
   -webkit-border-radius: 4px;
   background: var(--color-card);
   border: 1px solid rgba(68,68,68,0.2);
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
 }
 div.tabs .highlight,
 div.tabs p,
@@ -5826,7 +5826,7 @@ div.tabs ul.nav-tabs li.tab a {
   -webkit-border-radius: 4px 4px 0 0;
   padding: 8px;
   text-align: center;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   line-height: inherit;
   font-weight: bold;
   color: var(--color-meta);
@@ -5954,7 +5954,7 @@ div.timenode .body {
 div.timenode .meta {
   position: relative;
   color: var(--color-meta);
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   line-height: 32px;
   height: 32px;
 }
@@ -6000,8 +6000,8 @@ div.timenode .meta p {
 div.timenode .body {
   margin: 4px 0 16px 24px;
   padding: 16px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
   background: var(--color-block);
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
@@ -6841,7 +6841,7 @@ pre {
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: block;
   background: var(--color-block);
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   font-family: Menlo, UbuntuMono, Monaco, monospace, courier, sans-serif;
   border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -6980,4 +6980,25 @@ pre {
 }
 .iziToast-message {
   word-break: break-all !important;
+}
+.main-inner > .sub-menu,
+.main-inner > .post-block,
+.main-inner > .tabs-comment,
+.main-inner > .comments,
+.main-inner > .pagination {
+  background: rgba(245,245,245,0.42);
+}
+body {
+  color: #000;
+}
+.posts-expand .post-title-link {
+  color: #000;
+}
+.posts-expand .post-meta-container {
+  color: #800;
+}
+.sidebar {
+  opacity: 0.85;
+  -webkit-opacity: 0.85;
+  -moz-opacity: 0.85;
 }
