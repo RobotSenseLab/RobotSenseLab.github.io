@@ -76,7 +76,7 @@ body {
   background-color: var(--color-site-body);
   text-rendering: optimizelegibility;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  line-height: 1.6;
+  line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -555,7 +555,7 @@ button {
   margin-right: 4px;
 }
 .cover-wrapper.search .bottom .menu .list-h a p {
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 .cover-wrapper.search .bottom .menu .list-h a:hover,
 .cover-wrapper.search .bottom .menu .list-h a.active,

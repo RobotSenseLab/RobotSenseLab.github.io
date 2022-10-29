@@ -288,7 +288,7 @@ article#arc .timenode .meta {
   display: -webkit-flex /* NEW - Chrome */;
   display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
   display: flex;
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-weight: 500;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -346,7 +346,7 @@ article#cat .all-cats a {
   border-radius: 8px;
   -webkit-border-radius: 8px;
   color: var(--color-list);
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 article#cat .all-cats a:hover {
@@ -408,7 +408,7 @@ article#tag .all-tags ul li {
   display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
   display: flex;
   position: relative;
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 article#tag .all-tags ul li a {
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
@@ -462,22 +462,22 @@ article#tag .all-tags ul li span:before {
 .article h1 {
   text-align: left;
   color: var(--color-h1);
-  margin-top: 48px;
+  margin-top: 0px;
 }
 .article h2 {
   text-align: left;
   color: var(--color-h2);
-  margin-top: 48px;
+  margin-top: 0px;
 }
 .article h3 {
   text-align: left;
   color: var(--color-h3);
-  margin-top: 24px;
+  margin-top: 0px;
 }
 .article h4 {
   text-align: left;
   color: var(--color-h4);
-  margin-top: 16px;
+  margin-top: 0px;
 }
 .article h5 {
   font-weight: bold;
@@ -554,7 +554,7 @@ article#tag .all-tags ul li span:before {
 .article blockquote ol {
   text-align: left;
   word-wrap: normal;
-  font-size: 0.6rem;
+  font-size: 1rem;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -802,7 +802,7 @@ article#tag .all-tags ul li span:before {
   padding: 16px;
 }
 .md .footer .references .body a {
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 .md .footer .related_posts .body {
@@ -2132,11 +2132,11 @@ img.lazyload:not(.placeholder).loaded {
 }
 .md h1:before,
 .md h2:before {
-  margin-top: -32px;
+  margin-top: -80px;
 }
 .md .article-meta+h1,
 .md .article-meta+h2 {
-  margin-top: -80px;
+  margin-top: -128px;
 }
 .md h3,
 .md h4,
@@ -2145,20 +2145,20 @@ img.lazyload:not(.placeholder).loaded {
   margin-bottom: 1em;
 }
 .md h3:before {
-  margin-top: -56px;
+  margin-top: -80px;
 }
 .md h4:before {
-  margin-top: -64px;
+  margin-top: -80px;
 }
 .md h5 {
   font-weight: bold;
 }
 .md h2+h3:before {
-  margin-top: -80px;
+  margin-top: -128px;
 }
 .md ul,
 .md ol {
-  font-size: 0.6rem;
+  font-size: 1rem;
   list-style: initial;
   padding-left: 8px;
   margin-left: 16px;
@@ -4587,7 +4587,7 @@ details {
   border-radius: 4px;
   -webkit-border-radius: 4px;
   background: var(--color-card);
-  font-size: 0.6rem;
+  font-size: 1rem;
   transition: all 0.28s ease;
   -webkit-transition: all 0.28s ease;
   -khtml-transition: all 0.28s ease;
@@ -5206,7 +5206,7 @@ div.note {
   padding-left: calc(16px + 16px);
   border-radius: 4px;
   -webkit-border-radius: 4px;
-  font-size: 0.6rem;
+  font-size: 1rem;
   background: var(--color-block);
   border-left: 4px solid #3dd9b6;
 }
@@ -5776,7 +5776,7 @@ div.tabs {
   -webkit-border-radius: 4px;
   background: var(--color-card);
   border: 1px solid rgba(68,68,68,0.2);
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 div.tabs .highlight,
 div.tabs p,
